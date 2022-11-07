@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Index</title>
+	<link rel="stylesheet" href="../css//bootstrap-5.0.2-dist/css/bootstrap.min.css">
+	<style>
+		section {
+			min-width: 400px !important;
+			max-width: 500px !important;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<header class="text-center bg-primary text-light p-3">
+			<h1>Vaccine Slot Booking</h1>
+			<a href="./admin.html" class="text-light fs-3 text-decoration-none">Admin</a>
+		</header>
+		<main>
+			<section class="row border border-2 border-primary rounded mx-auto my-5">
+				<form class="col-12 form-group my-1 mx-auto p-5">
+					<div class="my-2">
+						<label for="name" class="m-1 text-primary">Enter Your Name</label>
+						<input type="text" id="name" name="name" class="form-control">
+					</div>
+					<div class="my-2">
+						<label for="email" class="m-1 text-primary">Enter Your Email</label>
+						<input type="text" id="email" name="email" class="form-control">
+					</div>
+					<div class="my-2">
+						<label for="date" class="m-1 text-primary">Select Date </label>
+						<input type="date" id="date" name="date" class="form-control">
+					</div>
+					<div class="my-2 row">
+						<div class="col-3">
+							<label for="age" class="m-1  text-primary">Age</label>
+							<input type="number" id="age" name="age" class="form-control">
+						</div>
+						<div class="col">
+							<label for="phone" class="m-1 text-primary">Phone Number</label>
+							<input type="number" id="phone" name="phone_number" class="form-control">
+						</div>
+					</div>
+					<div class="my-2">
+						<label for="adhaar" class="m-1 text-primary">Enter Adhaar Number</label>
+						<input type="number" id="adhaar" class="form-control" placeholder="XXXX-XXXX-XXXX" name="adhaar_number">
+					</div>
+					<div class="my-2">
+						<label for="address" class="m-1 text-primary">Enter Address</label>
+						<textarea type="text" id="address" name="address" class="form-control"></textarea>
+					</div>
+					<div class="m-3">
+						<button type="submit" id="submit" class="btn btn-primary">submit</button>
+					</div>
+				</form>
+			</section>
+		</main>
+	</div>
+	<script src="../js/index.js"></script>
+
+</body>
+</html>
